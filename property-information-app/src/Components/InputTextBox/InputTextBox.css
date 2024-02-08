@@ -1,0 +1,27 @@
+.input-textbox {
+    display: flex;
+    flex-direction: column; /* Stack input and button vertically */
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .input-textbox input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Add margin between input field and button */
+    font-size: 16px;
+    width: 300px; /* Adjust the width of the input field */
+  }
+  
+  .input-textbox button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .input-textbox button:hover {
+    background-color: #0056b3;
+  }
